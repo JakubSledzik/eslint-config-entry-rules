@@ -9,17 +9,21 @@
     "@typescript-eslint",
     "simple-import-sort",
     "import",
-    "prefer-arrow-functions"
+    "prefer-arrow-functions",
+    "unused-imports"
   ],
   "rules": {
     "no-unused-vars": "off",
     "@typescript-eslint/no-explicit-any": "warn",
-    "@typescript-eslint/no-unused-vars": [
+    "@typescript-eslint/no-unused-vars": "off",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
       "warn",
       {
-        "argsIgnorePattern": "^_",
+        "vars": "all",
         "varsIgnorePattern": "^_",
-        "caughtErrorsIgnorePattern": "^_"
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
       }
     ],
     "@typescript-eslint/naming-convention": [

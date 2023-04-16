@@ -1,10 +1,14 @@
 {
   "name": "eslint-config-entry-rules",
   "version": "1.0.0",
-  "description": "",
+  "description": "This config extends ESLint with some basic rules & good practices for all kind of TypeScript projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JakubSledzik/eslint-config-entry-rules"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +21,7 @@
     "eslint": "^8.38.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-prefer-arrow-functions": "^3.1.4",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "eslint-plugin-import": "^2.27.5",
     "typescript": "^5.0.4"
