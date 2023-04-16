@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-entry-rules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This config extends ESLint with some basic rules & good practices for all kind of TypeScript projects",
   "main": "index.js",
   "scripts": {
